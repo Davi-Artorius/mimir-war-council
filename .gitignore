@@ -1,0 +1,30 @@
+# Ambiente / segredos — NUNCA commitar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+credentials*.json
+*serviceAccount*.json
+*secret*.json
+
+# Dependências
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Build / cache
+dist/
+build/
+.next/
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
